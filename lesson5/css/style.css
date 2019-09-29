@@ -1,0 +1,47 @@
+ *{
+    padding: 0;
+    margin: 0; 
+ }
+body{
+    height: 10000px;
+}
+img{
+    float: left;
+}
+div{
+    <!-- border: 1px solid black;-->
+}
+.header{
+    height: 50px;
+    background-color: yellow;
+    min-width: 500px;
+}
+.menu{
+    width: 200px;
+    float: left;
+}
+.content-wrap{
+    background-color: red;
+}
+.content{
+    background-color: green;
+    margin-right: 200px;
+}
+.banners{
+    width: 200px;
+    height: 200px;    
+    float: right;
+}
+.content-blue{
+        background-color: blue;
+        margin-left: 200px;
+    }
+    .footer{
+        height: 50px;
+        background-color: aqua; 
+    }
+    .clear{
+        <!--height: 10px;-->
+        <!--background-color: black;-->
+        clear: both;
+    }
